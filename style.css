@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    max-height: 1000px;
+    background-color: rgb(138, 138, 255);
+}
+
+header{
+    width: 90%;
+    height: 200px;
+    margin: 15px 30px;
+    background-color: rgb(43, 42, 42);
+    position: relative;
+}
+#LogoBox{
+    display: inline-block;
+    width: 95%;
+    height: 150px;
+    margin: 10px 30px;
+    background: linear-gradient(to right, rgb(50, 50, 208) 55%,white);
+}
+#LogoBox img{
+    height: 100%;
+    float: right;
+}
+#LogoBox h1{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 30px 15px;
+
+}
+#LogoBox a{
+    text-decoration: none;
+}
+nav{
+    width: 40%;
+    text-align: right;
+    direction: rtl;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    position: absolute;
+    right: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav li{
+    display: inline-block;
+    width: 170px;
+    text-align: right;
+}
+nav li:hover{
+    background-color: rgb(163, 168, 255);
+}
+#MenuBox{
+    display: none;
+    background-color: rgb(163, 168, 255);
+    position:absolute;
+    z-index: 1;
+    line-height: 2;
+    padding: 5px 10px;
+    width: 55.11px;
+    transform: translate(0px, 2px);
+    border: 1px solid black;
+}
+#MenuBox a{
+    display: block;
+}
+#MenuBox a:hover{
+    background-color: black;
+    color: white;
+}
+#MenuSlid:hover #MenuBox{
+    display: block;
+}
+#iconSochl{
+    width: 55%;
+    display: inline-block;
+}
+#iconSochl img{
+    width: 30px;
+    margin: 0px 6px;
+    float: left;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+}
+main{
+    width: 90%;
+    height: 680px;
+    background-color: white;
+    margin: 15px 30px;
+}
+main #TextTitle{
+    direction: rtl;
+    padding: 20px 15px;
+    font-size: 45px;
+}
+main #TextTitle2{
+    direction: rtl;
+    padding: 20px 15px;
+    font-size: 45px;
+    text-align: center;
+}
+main #TextTitle3{
+    direction: rtl;
+    padding: 20px 15px;
+    font-size: 45px;
+    text-align: center;
+}
+main #TitleCoursone{
+    margin: 20px 18px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(163, 168, 255);
+    color: white;
+}
+main #Boxcourse{
+    margin: 20px 20px;
+    text-align: center;
+    width: 97%;
+    border: 2px solid black;
+    background-color: rgb(163, 168, 255);
+    color: white;
+    direction: rtl;
+}
+main #Boxcourse td{
+    padding: 5px;
+}
+main #Boxcourse a{
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    color: white;
+}
+main #Boxcourse a:hover{
+    color: rgb(255, 92, 92);
+}
+main hr{
+    width: 95%;
+    margin: 0px 35px;
+    height: 2px;
+    background: black;
+
+}
+main img{
+    animation: PopUpImg 5s 1s 1 normal;
+    opacity: 0.4;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 30%;
+}
+main h2{
+    text-align: center;
+    opacity: 0.4;
+    position: relative;
+    right: 30px;
+}
+#MainAbout{
+    height: 470px;
+}
+main p{
+    direction: rtl;
+    font-size: 35px;
+    margin: 30px 20px;
+    width: 95%;
+}
+main #TitleCourse{
+    direction: rtl;
+    margin: 20px 25px;
+    width: 95%;
+}
+main #MenuCourse{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid black;
+    direction: rtl;
+}
+main #MenuCourse li{
+    display: inline-block;
+    margin: 10px 15px;
+    width: 30%;
+}
+main #MenuCourse a{
+    text-decoration: none;
+    color: black;
+}
+main #MenuCourse a:hover{
+    color: red;
+}
+#MainHTML5{
+    height: 670px;
+}
+#MainCss{
+    height: 765px;
+}
+#MainJavaScript{
+    height: 900px;
+}
+#MainCourse{
+    height: 400px;
+}
+#MainCourse h2{
+    top: 120px;
+}
+#CoursesPage{
+    top: 350px;
+}
+#paner img{
+    width: 90%;
+    margin: 0px 30px;
+}
+footer{
+    width: 90%;
+    height: 220px;
+    background-color: rgb(43, 42, 42);
+    margin: 15px 30px;
+}
+#said-right{
+    width: 40%;
+    direction: rtl;
+    float: right;
+    margin: 50px;
+    border-bottom: 0px;
+    padding: 15px;
+    padding-bottom: 44px;
+}
+#said-right h2{
+    color: white;
+}
+#said-right hr{
+    width: 15%;
+    padding: 2px;
+    background: white;
+}
+#said-right ul{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+}
+#said-right a:hover{
+    color: brown;
+    font-size: 30px;
+}
+#said-right a{
+    text-decoration: none;
+    color: white;
+}
+#said-left{
+    width: 40%;
+    direction: rtl;
+    float: left;
+    margin: 50px;
+    border-bottom: 0px;
+    padding: 15px;
+}
+#said-left h2{
+    color: white;
+}
+#said-left hr{
+    width: 15%;
+    padding: 2px;
+    background: white;
+}
+#said-left ul{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+}
+#said-left a:hover{
+    color: brown;
+    font-size: 30px;
+}
+#said-left a{
+    text-decoration: none;
+    color: white;
+}
+#TextFooter{
+    text-align: center;
+    color: white;
+}
+#TheEnd{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    text-shadow: 2px 3px black;
+}
+@keyframes PopUpImg{
+    0%{
+        transform: scale(0.5);
+        display: none;
+    }
+    1%{
+        display: block;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 1445px){
+    nav li{
+        width: 150px;
+    }
+    header{
+        width: 90%;
+    }
+    #said-right{
+        width: 38%;
+    }
+    #said-left{
+        width: 38%;
+    }
+    #TheEnd{
+        left:35%;
+    }
+}
+
+@media only screen and (max-width: 1275px){
+    nav li{
+        width: 120px;
+    }
+    header{
+        width: 90%;
+    }
+    main #MenuCourse li{
+        width: 25%;
+    }
+    main #TitleCoursone{
+        width: 94.5%;
+    }
+    main #Boxcourse{
+        width: 94.5%;
+    }
+    #LogoBox{
+        width: 93%;
+    }
+    #said-right{
+        width: 35.5%;
+    }
+    #said-left{
+        width: 35.5%;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    nav li{
+        width: 90px;
+    }
+    header{
+        width: 95%;
+    }
+    #LogoBox{
+        width: 93%;
+    }
+    main{
+        width: 95%;
+    }
+    main hr{
+        width: 95%;
+        margin: 0px 35px;
+        height: 2px;
+        background: black;
+    }
+    main img{
+        left: 25%;
+    }
+    main p{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    main #TitleCoursone{
+        width: 94%;
+    }
+    main #Boxcourse{
+        width: 94%;
+    }
+    #paner img{
+        width: 95%;
+    }
+    footer{
+        width: 95%;
+    }
+    #said-right{
+        width: 31%;
+    }
+    #said-left{
+        width: 31%;
+    }
+}
+
+@media only screen and (max-width: 775px){
+    nav li{
+        width: 80px;
+    }
+    header{
+        width: 95%;
+    }
+    #LogoBox{
+        width: 93%;
+    }
+    #iconSochl img{
+        left: 40px;
+    }
+    main hr{
+        width: 90%;
+        margin: 0px 35px;
+        height: 2px;
+        background: black;
+    }
+    main img{
+        left: 20%;
+        width: 250px;
+        height: 450px;
+    }
+    #said-right{
+        width: 18%;
+    }
+    #said-right hr{
+        width: 60px;
+    }
+    #said-left{
+        width: 18%;
+    }
+    #said-left hr{
+        width: 60px;
+    }
+    #TheEnd{
+        left:30%
+    }
+}
+@media only screen and (max-width: 565px){
+    #MainCourse #TitleCourse{
+        margin: 8px 8px;
+    }
+    header{
+        width: 95%;
+    }
+    #MainJavaScript{
+        height: 1300px;
+    }
+}
+@media only screen and (max-width: 540px){
+    nav ul{
+        right: 60px;
+    }
+    nav li{
+        width: 80px;
+        display: block;
+    }
+    header{
+        width: 95%;
+        height: 250px;
+    }
+    #LogoBox{
+        width: 90%;
+    }
+    main hr{
+        width: 90%;
+        margin: 0px 35px;
+        height: 2px;
+        background: black;
+    }
+    #MainHTML5{
+        height: 880px;
+    }
+    #MainCss{
+        height: 1050px;
+    }
+    #MainJavaScript{
+        height: 1300px;
+    }
+    main img{
+        left: 15%;
+    }
+    main #TitleCoursone{
+        width: 92%;
+    }
+    main #Boxcourse{
+        width: 92%;
+    }
+    main h2{
+        text-align: center;
+        opacity: 0.4;
+        position: relative;
+        right: 1px;
+    }
+    #MainAbout{
+        height: 495px;
+    }
+    #said-right{
+        width: 15%;
+    }
+    #said-right hr{
+        width: 50px;
+    }
+    #said-left{
+        width: 15%;
+    }
+    #said-left hr{
+        width: 50px;
+    }
+    #TheEnd{
+        left:25%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    nav li{
+        width: 80px;
+        margin: 0px 7px;
+    }
+    header{
+        width: 95%;
+    }
+    #LogoBox{
+        width: 82%;
+    }
+    #LogoBox img{
+        transform: translateX(-40%);
+    }
+    #LogoBox h1{
+        display: none;
+    }
+    main hr{
+        width: 90%;
+        margin: 0px 35px;
+        height: 2px;
+        background: black;
+    }
+    main #Boxcourse{
+        width: 92%;
+    }
+    #MainHTML5{
+        height: 1220px;
+    }
+    #MainCss{
+        height: 1380px;
+    }
+    #MainJavaScript{
+        height: 1680px;
+    }
+    #MainJavaScript #Boxcourse{
+        width: 92%;
+    }
+    main img{
+        height: 480px;
+    }
+    main h2{
+        text-align: center;
+        opacity: 0.4;
+        position: relative;
+        right: 5px;
+    }
+    main p{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 30px 15px;
+    }
+    main #MenuCourse li{
+        width: 20%;
+    }
+    #MainAbout{
+        height: 480px;
+    }
+    #said-right{
+        width: 12%;
+        margin: 20px;
+    }
+    #said-right hr{
+        width: 50px;
+    }
+    #said-left{
+        width: 12%;
+    }
+    #said-left hr{
+        width: 50px;
+    }
+    #TheEnd{
+        left:20%;
+    }
+}
+
+@media only screen and (max-width: 369px){
+    nav ul{
+        right: 30px;
+    }
+    nav li{
+        width: 9px;
+        margin: 0px 15px;
+    }
+    header{
+        width: 95%;
+    }
+    #LogoBox{
+        width: 82%;
+    }
+    #MainAbout{
+        height: 510px;
+    }
+    #MainHTML5{
+        height: 1000px;
+    }
+    #MainCss{
+        height: 1175px;
+    }
+    #MainJavaScript{
+        height: 1800px;
+    }
+    #MainJavaScript #Boxcourse{
+        width: 95%;
+    }
+    main #Boxcourse{
+        width: 92%;
+        transform: translateX(-5px);
+    }
+    main hr{
+        width: 85%;
+        margin: 0px 35px;
+        height: 2px;
+        background: black;
+    }
+    #LogoBox img{
+        float: none;
+        transform: translateX(50%);
+    }
+    #LogoBox h1{
+        display: none;
+    }
+    #TheEnd{
+        left:15%;
+    }
+}
+@media only screen and (max-width: 330px){
+    header{
+        width: 95%;
+        height: 250px;
+    }
+    nav li{
+        display: block;
+    }
+    #iconSochl img{
+        float: right;
+        width: 20%;
+        transform: translate(80px, 25px);
+    }
+    main hr{
+        width: 75%;
+        margin: 0px 60px;
+        height: 2px;
+        background: black
+    }
+    #LogoBox{
+        width: 82%;
+    }
+    #LogoBox img{
+        float: none;
+        transform: translateX(40%);
+    }
+    #MainCourse{
+        height: 350px;
+    }
+    main #Boxcourse{
+        width: 92%;
+        transform: translateX(-8px);
+    }
+    #MainCourse #TitleCourse{
+        margin: 12px 5px;
+    }
+    #MainCourse h2{
+        top: 85px;
+    }
+    #MainJavaScript{
+        height: 1400px;
+    }
+    main p{
+    font-size: 15px;
+    font-weight: bold;
+    transform: translateX(-10px);
+    }
+    #MainAbout{
+        height: 450px;
+    }
+    #said-right{
+        width: 8%;
+        margin: 20px;
+    }
+    #said-right hr{
+        width: 40px;
+    }
+    #said-left{
+        width: 12%;
+    }
+    #said-left hr{
+        width: 40px;
+    }
+}
