@@ -97,7 +97,7 @@ nav li:hover{
 }
 main{
     width: 90%;
-    height: 680px;
+    height: 690px;
     background-color: white;
     margin: 15px 30px;
 }
@@ -206,11 +206,8 @@ main #MenuCourse a:hover{
 #MainCss{
     height: 765px;
 }
-#MainJavaScript{
-    height: 900px;
-}
 #MainCourse{
-    height: 400px;
+    height: 450px;
 }
 #MainCourse h2{
     top: 120px;
@@ -439,7 +436,7 @@ footer{
         width: 60px;
     }
     #TheEnd{
-        left:30%
+        left:30%;
     }
 }
 @media only screen and (max-width: 565px){
@@ -479,9 +476,6 @@ footer{
     }
     #MainCss{
         height: 1050px;
-    }
-    #MainJavaScript{
-        height: 1300px;
     }
     main img{
         left: 15%;
@@ -545,16 +539,10 @@ footer{
         width: 92%;
     }
     #MainHTML5{
-        height: 1220px;
+        height: 1200px;
     }
     #MainCss{
         height: 1380px;
-    }
-    #MainJavaScript{
-        height: 1680px;
-    }
-    #MainJavaScript #Boxcourse{
-        width: 92%;
     }
     main img{
         height: 480px;
@@ -617,12 +605,6 @@ footer{
     #MainCss{
         height: 1175px;
     }
-    #MainJavaScript{
-        height: 1800px;
-    }
-    #MainJavaScript #Boxcourse{
-        width: 95%;
-    }
     main #Boxcourse{
         width: 92%;
         transform: translateX(-5px);
@@ -682,9 +664,6 @@ footer{
     }
     #MainCourse h2{
         top: 85px;
-    }
-    #MainJavaScript{
-        height: 1400px;
     }
     main p{
     font-size: 15px;
